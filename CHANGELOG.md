@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.23.0
+
+### Minor Changes
+
+- [`a84bfd3`](https://github.com/justeattakeaway/pie/commit/a84bfd3eaed89f8dcf4bdd030643f47e10fa3296) - Updated commitlint config naming grammar.
+
+### Patch Changes
+
+- [`fb76fe9`](https://github.com/justeattakeaway/pie/commit/fb76fe92ba64cf8135bdeba7f37bb8c56f853c52) - Added README.md file into .changeset/
+
 ## 1.22.0
 
 ### Minor Changes

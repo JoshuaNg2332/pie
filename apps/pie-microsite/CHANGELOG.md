@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.32.2
+
+### Patch Changes
+
+- [`d28c102`](https://github.com/justeattakeaway/pie/commit/d28c102e879181fb314807fa30a2a397a14e0e13) - Updated minor grammatical error in test message.
+
 ## 1.32.1
 
 ### Patch Changes
