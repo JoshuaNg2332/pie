@@ -9,6 +9,7 @@ module.exports = {
             'changeset',
             'chore',
             'ci',
+            'config',
             'docs',
             'feat',
             'fix',
@@ -81,6 +82,10 @@ module.exports = {
             changeset: {
               description: 'Updates version number of affected packages',
               title: 'Changesets',
+            },
+            config: {
+              description: 'Updates configuration file',
+              title: 'Config',
             },
           },
         },
