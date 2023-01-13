@@ -6,8 +6,10 @@ module.exports = {
         'always',
             [
             'build',
+            'changeset',
             'chore',
             'ci',
+            'config',
             'docs',
             'feat',
             'fix',
@@ -76,6 +78,14 @@ module.exports = {
             revert: {
               description: 'Reverts a previous commit',
               title: 'Reverts',
+            },
+            changeset: {
+              description: 'Updates version number of affected packages',
+              title: 'Changesets',
+            },
+            config: {
+              description: 'Updates configuration file',
+              title: 'Config',
             },
           },
         },
