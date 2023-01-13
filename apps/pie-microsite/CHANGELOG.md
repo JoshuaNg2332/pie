@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.32.1
+
+### Patch Changes
+
+- [`5d4a57e`](https://github.com/justeattakeaway/pie/commit/5d4a57ee630e186153236a367d9656cdeabf9565) - Updated Test Name
+
 ## 1.32.0
 
 ### Minor Changes
