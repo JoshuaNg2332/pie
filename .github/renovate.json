@@ -13,13 +13,29 @@
             "enabled": false
         },
         {
+            "description": "Disable major root package.json babel devDeps.",
+            "matchPaths": ["**/package.json"],
+            "matchDepTypes": ["devDependencies"],
+            "matchPackagePatterns": ["^@babel/"],
+            "groupName": "Disable Major Babel",
+            "groupSlug": "disable-root-babel-devDeps",
+            "enabled": false,
+            "matchUpdateTypes": [
+                "major"
+            ]
+        },
+        {
             "description": "Update root package.json babel devDeps.",
             "matchPaths": ["**/package.json"],
             "matchDepTypes": ["devDependencies"],
             "matchPackagePatterns": ["^@babel/"],
             "groupName": "Babel",
             "groupSlug": "root-babel-devDeps",
-            "enabled": true
+            "enabled": true,
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ]
         }
     ]
   }
