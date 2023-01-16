@@ -16,7 +16,7 @@
             "description": "Update root package.json babel devDeps.",
             "matchPaths": ["**/package.json"],
             "matchDepTypes": ["devDependencies"],
-            "matchPackagePatterns": ["^@babel/", "babel"],
+            "matchPackagePatterns": ["^@babel/"],
             "groupName": "Babel",
             "groupSlug": "root-babel-devDeps",
             "enabled": true,
