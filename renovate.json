@@ -19,8 +19,28 @@
             "enabled": true
         },
         {
-            "matchPackagePatterns": ["*"],
-            "enabled": false
+            "matchDepTypes": ["devDependencies"],
+            "matchPackagePatterns": ["@justeat/"],
+            "matchUpdateTypes": ["minor", "patch"],
+            "groupName": "justeattakeaway",
+            "groupSlug": "root-just-eat-devDeps",
+            "enabled": true
+        },
+        {
+            "matchDepTypes": ["devDependencies"],
+            "matchPackagePatterns": ["@wdio/"],
+            "matchUpdateTypes": ["minor", "patch"],
+            "groupName": "wdio",
+            "groupSlug": "root-wdio-devDeps",
+            "enabled": true
+        },
+        {
+            "matchDepTypes": ["devDependencies"],
+            "matchPackagePatterns": ["@percy/"],
+            "matchUpdateTypes": ["minor", "patch"],
+            "groupName": "percy",
+            "groupSlug": "root-percy-devDeps",
+            "enabled": true
         }
     ]
   }
