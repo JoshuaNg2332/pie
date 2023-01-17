@@ -15,23 +15,10 @@
             "enabled": false
         },
         {
+            "matchPaths": ["**/package.json"],
+            "matchDepTypes": ["devDependencies"],
+            "matchPackagePatterns": ["@babel/*", "babel-*"],
             "matchUpdateTypes": ["minor", "patch"],
-            "enabled": true
-        },
-        {
-            "description": "Update root package.json babel devDeps.",
-            "matchPaths": ["**/package.json"],
-            "matchDepTypes": ["devDependencies"],
-            "matchPackagePatterns": ["^@babel/"],
-            "groupName": "Babel",
-            "groupSlug": "root-babel-devDeps",
-            "enabled": true
-        },
-        {
-            "description": "Update root package.json babel devDeps.",
-            "matchPaths": ["**/package.json"],
-            "matchDepTypes": ["devDependencies"],
-            "matchPackagePatterns": ["babel"],
             "groupName": "Babel",
             "groupSlug": "root-babel-devDeps",
             "enabled": true
