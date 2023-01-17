@@ -5,13 +5,10 @@
       ":disableMajorUpdates",
       ":dependencyDashboard"
     ],
+    "ignoreDeps": "chromedriver",
     "commitMessagePrefix": "renovate -",
     "prConcurrentLimit": 3,
     "packageRules": [
-        {
-            "matchPackagePatterns": ["*"],
-            "enabled": false
-        },
         {
             "description": "Update root package.json babel devDeps.",
             "matchPaths": ["**/package.json"],
