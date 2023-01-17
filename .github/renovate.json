@@ -5,7 +5,7 @@
       ":disableMajorUpdates",
       ":dependencyDashboard"
     ],
-    "ignoreDeps": "chromedriver",
+    "ignoreDeps": ["chromedriver"],
     "commitMessagePrefix": "renovate -",
     "prConcurrentLimit": 3,
     "packageRules": [
