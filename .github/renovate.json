@@ -18,6 +18,7 @@
             "matchPaths": ["**/package.json"],
             "matchDepTypes": ["devDependencies"],
             "matchPackagePatterns": ["^@babel/", "babel"],
+            "matchUpdateTypes": ["major"],
             "groupName": "Babel",
             "groupSlug": "root-babel-devDeps",
             "enabled": true
