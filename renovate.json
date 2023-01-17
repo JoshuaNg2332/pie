@@ -12,7 +12,7 @@
     "packageRules": [
         {
             "matchDepTypes": ["devDependencies"],
-            "matchPackagePatterns": ["@babel/*", "babel-*"],
+            "matchPackagePatterns": ["^@babel/*", "babel-*"],
             "matchUpdateTypes": ["minor", "patch"],
             "groupName": "Babel",
             "groupSlug": "root-babel-devDeps",
