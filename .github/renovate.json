@@ -8,27 +8,30 @@
     "ignoreDeps": ["chromedriver"],
     "commitMessagePrefix": "renovate -",
     "prConcurrentLimit": 3,
+    "major": false,
     "packageRules": [
         {
             "matchPackagePatterns": ["*"],
             "enabled": false
         },
         {
-            "description": "Update root package.json babel devDeps.",
-            "matchPaths": ["**/package.json"],
-            "matchDepTypes": ["devDependencies"],
-            "matchPackagePatterns": ["^@babel/", "babel"],
-            "matchUpdateTypes": ["major"],
-            "groupName": "Babel",
-            "groupSlug": "root-babel-devDeps",
-            "enabled": false
+            "matchUpdateTypes": ["minor", "patch"],
+            "enabled": true
         },
         {
             "description": "Update root package.json babel devDeps.",
             "matchPaths": ["**/package.json"],
             "matchDepTypes": ["devDependencies"],
-            "matchPackagePatterns": ["^@babel/", "babel"],
-            "matchUpdateTypes": ["minor", "patch"],
+            "matchPackagePatterns": ["^@babel/"],
+            "groupName": "Babel",
+            "groupSlug": "root-babel-devDeps",
+            "enabled": true
+        },
+        {
+            "description": "Update root package.json babel devDeps.",
+            "matchPaths": ["**/package.json"],
+            "matchDepTypes": ["devDependencies"],
+            "matchPackagePatterns": ["babel"],
             "groupName": "Babel",
             "groupSlug": "root-babel-devDeps",
             "enabled": true
