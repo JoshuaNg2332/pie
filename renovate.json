@@ -20,9 +20,9 @@
         },
         {
             "matchDepTypes": ["devDependencies"],
-            "matchPackagePatterns": ["@justeat/"],
+            "matchPackagePatterns": ["@justeat/*"],
             "matchUpdateTypes": ["minor", "patch"],
-            "groupName": "justeattakeaway",
+            "groupName": "justeat",
             "groupSlug": "root-just-eat-devDeps",
             "enabled": true
         },
@@ -36,7 +36,7 @@
         },
         {
             "matchDepTypes": ["devDependencies"],
-            "matchPackagePatterns": ["@percy/"],
+            "matchPackagePatterns": ["@percy/*"],
             "matchUpdateTypes": ["minor", "patch"],
             "groupName": "percy",
             "groupSlug": "root-percy-devDeps",
