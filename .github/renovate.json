@@ -10,9 +10,6 @@
     "prConcurrentLimit": 3,
     "packageRules": [
         {
-            "matchUpdateTypes": ["minor", "patch"]
-        },
-        {
             "matchPackagePatterns": ["*"],
             "enabled": false
         },
@@ -21,6 +18,17 @@
             "matchPaths": ["**/package.json"],
             "matchDepTypes": ["devDependencies"],
             "matchPackagePatterns": ["^@babel/", "babel"],
+            "matchUpdateTypes": ["major"],
+            "groupName": "Babel",
+            "groupSlug": "root-babel-devDeps",
+            "enabled": false
+        },
+        {
+            "description": "Update root package.json babel devDeps.",
+            "matchPaths": ["**/package.json"],
+            "matchDepTypes": ["devDependencies"],
+            "matchPackagePatterns": ["^@babel/", "babel"],
+            "matchUpdateTypes": ["minor", "patch"],
             "groupName": "Babel",
             "groupSlug": "root-babel-devDeps",
             "enabled": true
