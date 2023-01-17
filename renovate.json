@@ -11,16 +11,16 @@
     "major": false,
     "packageRules": [
         {
-            "matchPackagePatterns": ["*"],
-            "enabled": false
-        },
-        {
             "matchDepTypes": ["devDependencies"],
             "matchPackagePatterns": ["@babel/*", "babel-*"],
             "matchUpdateTypes": ["minor", "patch"],
             "groupName": "Babel",
             "groupSlug": "root-babel-devDeps",
             "enabled": true
+        },
+        {
+            "matchPackagePatterns": ["*"],
+            "enabled": false
         }
     ]
   }
