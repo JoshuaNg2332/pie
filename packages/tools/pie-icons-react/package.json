@@ -37,7 +37,7 @@
     "build": "yarn build:icons && yarn build:lib"
   },
   "devDependencies": {
-    "@babel/node": "7.19.1",
+    "@babel/node": "7.23.9",
     "@justeattakeaway/pie-icons": "2.0.0-beta.2",
     "@svgr/core": "6.4.0",
     "@types/react": "18.0.21",
