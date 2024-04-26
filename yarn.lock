@@ -3294,15 +3294,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:17.5.1":
-  version: 17.5.1
-  resolution: "@commitlint/cli@npm:17.5.1"
+"@commitlint/cli@npm:17.8.1":
+  version: 17.8.1
+  resolution: "@commitlint/cli@npm:17.8.1"
   dependencies:
-    "@commitlint/format": ^17.4.4
-    "@commitlint/lint": ^17.4.4
-    "@commitlint/load": ^17.5.0
-    "@commitlint/read": ^17.5.1
-    "@commitlint/types": ^17.4.4
+    "@commitlint/format": ^17.8.1
+    "@commitlint/lint": ^17.8.1
+    "@commitlint/load": ^17.8.1
+    "@commitlint/read": ^17.8.1
+    "@commitlint/types": ^17.8.1
     execa: ^5.0.0
     lodash.isfunction: ^3.0.9
     resolve-from: 5.0.0
@@ -3310,7 +3310,7 @@ __metadata:
     yargs: ^17.0.0
   bin:
     commitlint: cli.js
-  checksum: 2bdd26b3215796dccb16b0d7459d3b0db7f6324800aa73b97a8cdf79b77f3691d85ee88f37fa6cf20c97ac664f31dcb6ad7aef1da3c3b32d7bb12f18d49a37f2
+  checksum: 293d5868e2f586a9ac5364c40eeb0fe2131ea689312c43d43ababe6f2415c998619c5070cf89e7298125a1d96b9e5912b85f51db75aedbfb189d67554f911dbf
   languageName: node
   linkType: hard
 
@@ -3371,7 +3371,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/format@npm:^17.4.4":
+"@commitlint/format@npm:^17.8.1":
   version: 17.8.1
   resolution: "@commitlint/format@npm:17.8.1"
   dependencies:
@@ -3391,7 +3391,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:^17.4.4":
+"@commitlint/lint@npm:^17.8.1":
   version: 17.8.1
   resolution: "@commitlint/lint@npm:17.8.1"
   dependencies:
@@ -3421,7 +3421,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^17.5.0":
+"@commitlint/load@npm:^17.8.1":
   version: 17.8.1
   resolution: "@commitlint/load@npm:17.8.1"
   dependencies:
@@ -3461,7 +3461,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/read@npm:^17.5.1":
+"@commitlint/read@npm:^17.8.1":
   version: 17.8.1
   resolution: "@commitlint/read@npm:17.8.1"
   dependencies:
@@ -3531,7 +3531,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/types@npm:^17.4.4, @commitlint/types@npm:^17.8.1":
+"@commitlint/types@npm:^17.8.1":
   version: 17.8.1
   resolution: "@commitlint/types@npm:17.8.1"
   dependencies:
@@ -5587,7 +5587,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@justeattakeaway/pie-chip@0.5.3, @justeattakeaway/pie-chip@workspace:packages/components/pie-chip":
+"@justeattakeaway/pie-chip@0.6.0, @justeattakeaway/pie-chip@workspace:packages/components/pie-chip":
   version: 0.0.0-use.local
   resolution: "@justeattakeaway/pie-chip@workspace:packages/components/pie-chip"
   dependencies:
@@ -5861,7 +5861,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@justeattakeaway/pie-tag@0.9.3, @justeattakeaway/pie-tag@workspace:packages/components/pie-tag":
+"@justeattakeaway/pie-tag@0.9.4, @justeattakeaway/pie-tag@workspace:packages/components/pie-tag":
   version: 0.0.0-use.local
   resolution: "@justeattakeaway/pie-tag@workspace:packages/components/pie-tag"
   dependencies:
@@ -29127,7 +29127,7 @@ __metadata:
     "@babel/register": 7.21.0
     "@changesets/changelog-github": 0.4.8
     "@changesets/cli": 2.26.2
-    "@commitlint/cli": 17.5.1
+    "@commitlint/cli": 17.8.1
     "@commitlint/config-conventional": 17.4.4
     "@justeat/pie-design-tokens": 6.0.0
     "@justeattakeaway/browserslist-config-pie": 0.2.0
@@ -29192,7 +29192,7 @@ __metadata:
     "@justeattakeaway/pie-assistive-text": 0.3.4
     "@justeattakeaway/pie-button": 0.47.3
     "@justeattakeaway/pie-card": 0.19.3
-    "@justeattakeaway/pie-chip": 0.5.3
+    "@justeattakeaway/pie-chip": 0.6.0
     "@justeattakeaway/pie-cookie-banner": 0.19.4
     "@justeattakeaway/pie-css": 0.11.0
     "@justeattakeaway/pie-divider": 0.13.3
@@ -29205,7 +29205,7 @@ __metadata:
     "@justeattakeaway/pie-notification": 0.5.3
     "@justeattakeaway/pie-spinner": 0.6.3
     "@justeattakeaway/pie-switch": 0.29.2
-    "@justeattakeaway/pie-tag": 0.9.3
+    "@justeattakeaway/pie-tag": 0.9.4
     "@storybook/addon-a11y": 7.6.17
     "@storybook/addon-designs": 7.0.9
     "@storybook/addon-essentials": 7.6.17
