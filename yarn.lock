@@ -5587,7 +5587,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@justeattakeaway/pie-chip@0.5.3, @justeattakeaway/pie-chip@workspace:packages/components/pie-chip":
+"@justeattakeaway/pie-chip@0.6.0, @justeattakeaway/pie-chip@workspace:packages/components/pie-chip":
   version: 0.0.0-use.local
   resolution: "@justeattakeaway/pie-chip@workspace:packages/components/pie-chip"
   dependencies:
@@ -5861,7 +5861,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@justeattakeaway/pie-tag@0.9.3, @justeattakeaway/pie-tag@workspace:packages/components/pie-tag":
+"@justeattakeaway/pie-tag@0.9.4, @justeattakeaway/pie-tag@workspace:packages/components/pie-tag":
   version: 0.0.0-use.local
   resolution: "@justeattakeaway/pie-tag@workspace:packages/components/pie-tag"
   dependencies:
@@ -5908,7 +5908,7 @@ __metadata:
   dependencies:
     "@babel/core": 7.23.9
     "@babel/preset-react": 7.18.6
-    "@lit/react": 1.0.4
+    "@lit/react": 1.0.8
     "@types/react": 18.2.75
     fs-extra: 9.1.0
   bin:
@@ -6022,12 +6022,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lit/react@npm:1.0.4":
-  version: 1.0.4
-  resolution: "@lit/react@npm:1.0.4"
+"@lit/react@npm:1.0.8":
+  version: 1.0.8
+  resolution: "@lit/react@npm:1.0.8"
   peerDependencies:
-    "@types/react": 17 || 18
-  checksum: 8e6b399a45416a9d0cdd88d5d74cc6aa21e273ff969805dfb7c47004e011369cc092e7992966b758caaaa0f73a3236e470c38e784adae1a697e1350fdf4a3f77
+    "@types/react": 17 || 18 || 19
+  checksum: 043d6567ba4c5ebd7ace6f17955cf6341d3e8913cca255718945019553ffdf70fe51fc479a2bdf6f4201d5459fd2eb1d6a974229f89953f464572179e487a8a0
   languageName: node
   linkType: hard
 
@@ -29192,7 +29192,7 @@ __metadata:
     "@justeattakeaway/pie-assistive-text": 0.3.4
     "@justeattakeaway/pie-button": 0.47.3
     "@justeattakeaway/pie-card": 0.19.3
-    "@justeattakeaway/pie-chip": 0.5.3
+    "@justeattakeaway/pie-chip": 0.6.0
     "@justeattakeaway/pie-cookie-banner": 0.19.4
     "@justeattakeaway/pie-css": 0.11.0
     "@justeattakeaway/pie-divider": 0.13.3
@@ -29205,7 +29205,7 @@ __metadata:
     "@justeattakeaway/pie-notification": 0.5.3
     "@justeattakeaway/pie-spinner": 0.6.3
     "@justeattakeaway/pie-switch": 0.29.2
-    "@justeattakeaway/pie-tag": 0.9.3
+    "@justeattakeaway/pie-tag": 0.9.4
     "@storybook/addon-a11y": 7.6.17
     "@storybook/addon-designs": 7.0.9
     "@storybook/addon-essentials": 7.6.17
